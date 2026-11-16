@@ -1,0 +1,19 @@
+"family","stage","added","terms","n_main","n_int","aic","bic","nagelkerke","df","converged","dBIC_from_prev","selected_main","selected"
+"pb","null",NA,"",0,0,97283.4655596945,97318.7446728322,-1.08533995358595e-10,4,TRUE,NA,FALSE,FALSE
+"pb","main","niso","niso",1,0,82847.2295503768,82935.4273332209,0.292807829228458,10,TRUE,-14383.3173396113,FALSE,FALSE
+"pb","main","pcov","niso + pcov",2,0,78781.5381768594,79049.3232341995,0.361714455809959,30.3618808438124,TRUE,-3886.10409902142,FALSE,FALSE
+"pb","main","txlen","niso + pcov + txlen",3,0,77178.1320084232,77588.4375152919,0.387624480610855,46.5210681762762,TRUE,-1460.88571890756,FALSE,FALSE
+"pb","main","paralog","niso + pcov + txlen + paralog",4,0,75901.3531394247,76322.177223668,0.407304122692542,47.7136806247278,TRUE,-1266.26029162391,FALSE,FALSE
+"pb","main","gc","niso + pcov + txlen + paralog + gc",5,0,74746.7696682861,75331.6544284018,0.425191908527993,66.3151318837091,TRUE,-990.522795266181,TRUE,FALSE
+"pb","interaction","iso_x_paralog","niso + pcov + txlen + paralog + gc + int:iso_x_paralog",5,1,73534.1164253606,74176.8838165127,0.443150470168695,72.8779534388375,TRUE,-1154.77061188914,FALSE,FALSE
+"pb","interaction","pcov_x_txlen","niso + pcov + txlen + paralog + gc + int:iso_x_paralog + int:pcov_x_txlen",5,2,72835.7358341278,73506.0187457643,0.453276134814697,75.9977053869055,TRUE,-670.865070748405,FALSE,FALSE
+"pb","interaction","iso_x_txlen","niso + pcov + txlen + paralog + gc + int:iso_x_paralog + int:pcov_x_txlen + int:iso_x_txlen",5,3,72320.9320247892,73036.1034397109,0.460728119375079,81.0872327919949,TRUE,-469.915306053343,FALSE,TRUE
+"linear","null",NA,"",0,0,97283.4655596945,97318.7446728322,-1.08533995358595e-10,4,TRUE,NA,FALSE,FALSE
+"linear","main","niso","niso",1,0,82847.2295503768,82935.4273332209,0.292807829228458,10,TRUE,-14383.3173396113,FALSE,FALSE
+"linear","main","pcov","niso + pcov",2,0,79912.5467612642,80027.2038789615,0.34272495499914,13,TRUE,-2908.22345425939,FALSE,FALSE
+"linear","main","paralog","niso + pcov + paralog",3,0,78364.945099429,78506.0615519795,0.367935226197264,16,TRUE,-1521.14232698198,FALSE,FALSE
+"linear","main","txlen","niso + pcov + paralog + txlen",4,0,77265.2586985674,77432.8344859712,0.385405996170535,19,TRUE,-1073.22706600833,FALSE,FALSE
+"linear","main","gc","niso + pcov + paralog + txlen + gc",5,0,76658.3221378446,76852.3572601017,0.394925747197737,22,TRUE,-580.47722586953,TRUE,FALSE
+"linear","interaction","iso_x_paralog","niso + pcov + paralog + txlen + gc + int:iso_x_paralog",5,1,75513.4792511469,75760.4330431104,0.412578212098736,28,TRUE,-1091.92421699126,FALSE,FALSE
+"linear","interaction","iso_x_txlen","niso + pcov + paralog + txlen + gc + int:iso_x_paralog + int:iso_x_txlen",5,2,75074.2882477336,75374.1607094035,0.419353060659521,34,TRUE,-386.272333706889,FALSE,FALSE
+"linear","interaction","pcov_x_txlen","niso + pcov + paralog + txlen + gc + int:iso_x_paralog + int:iso_x_txlen + int:pcov_x_txlen",5,3,74927.8369899729,75254.1687864961,0.421628405794768,37,TRUE,-119.991922907415,FALSE,TRUE
